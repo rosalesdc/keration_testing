@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="corte01" model="add_fields_rapaport_model.piedra_cortes">
+            <field name="name">CUSHION</field>         
+        </record>
+        <record id="corte02" model="add_fields_rapaport_model.piedra_cortes">
+            <field name="name">EX</field>         
+        </record>
+        <record id="corte03" model="add_fields_rapaport_model.piedra_cortes">
+            <field name="name">FAIR</field>         
+        </record>
+        <record id="corte04" model="add_fields_rapaport_model.piedra_cortes">
+            <field name="name">GD</field>         
+        </record>
+        <record id="corte05" model="add_fields_rapaport_model.piedra_cortes">
+            <field name="name">N/A</field>         
+        </record>
+        <record id="corte06" model="add_fields_rapaport_model.piedra_cortes">
+            <field name="name">VG</field>         
+        </record>
+    </data>
+</odoo>

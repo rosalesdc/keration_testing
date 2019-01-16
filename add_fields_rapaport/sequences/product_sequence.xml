@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.sequence" id="seq_parsel_id">
+            <field name="name">Código Parsel</field>
+            <field name="code">parsel.code</field>
+            <field name="padding">3</field>
+            <field name="prefix">QTP</field>
+            <field name="number_increment">1</field>
+            <field name="number_next_actual">001</field>
+        </record>
+    </data>
+</odoo>
+<!--https://www.odoo.com/es_ES/forum/ayuda-1/question/how-can-i-create-employee-code-in-a-sequence-field-21501-->

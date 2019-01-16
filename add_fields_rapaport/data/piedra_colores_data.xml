@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="color01" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Aguamarina</field>         
+        </record>
+        <record id="color02" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Australianas</field>         
+        </record>
+        <record id="color03" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Black</field>         
+        </record>
+        <record id="color04" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Black treated</field>         
+        </record>
+        <record id="color05" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Colombian Emerald</field>         
+        </record>
+        <record id="color06" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Color samples</field>         
+        </record>
+        <record id="color07" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">D</field>         
+        </record>
+        <record id="color08" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">D/F</field>         
+        </record>
+        <record id="color09" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">E</field>         
+        </record>
+        <record id="color10" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Emerald</field>         
+        </record>
+        <record id="color11" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">F</field>         
+        </record>
+        <record id="color12" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">F/G</field>         
+        </record>
+        <record id="color13" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Fancy Int. OY</field>         
+        </record>
+        <record id="color14" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Fancy Light Yellow</field>         
+        </record>
+        <record id="color15" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Fancy Yellow</field>         
+        </record>
+        <record id="color16" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">FLY</field>         
+        </record>
+        <record id="color17" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">G</field>         
+        </record>
+        <record id="color18" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">G/H</field>         
+        </record>
+        <record id="color19" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Gold Yellow treated</field>         
+        </record>
+        <record id="color20" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">H</field>         
+        </record>
+        <record id="color21" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">H/I</field>         
+        </record>
+        <record id="color22" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">I</field>         
+        </record>
+        <record id="color23" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">I/J</field>         
+        </record>
+        <record id="color24" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">J</field>         
+        </record>
+        <record id="color25" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">J/K</field>         
+        </record>
+        <record id="color26" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">K</field>         
+        </record>
+        <record id="color27" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Mix Fancy Colour</field>         
+        </record>
+        <record id="color28" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Mix Fancy Yellow</field>         
+        </record>
+        <record id="color29" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">N/A</field>         
+        </record>
+        <record id="color30" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Nat. Fancy Yellow Mix</field>         
+        </record>
+        <record id="color31" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Nat.Cognac</field>         
+        </record>
+        <record id="color32" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">O. Top</field>         
+        </record>
+        <record id="color33" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">OWLB</field>         
+        </record>
+        <record id="color34" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">P1</field>         
+        </record>
+        <record id="color35" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">Pink</field>         
+        </record>
+        <record id="color36" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">TTLB</field>         
+        </record>
+        <record id="color37" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">TTLB Pink</field>         
+        </record>
+        <record id="color38" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">TTLB/TTTLB</field>         
+        </record>
+        <record id="color39" model="add_fields_rapaport_model.piedra_colores">
+            <field name="name">W to X</field>         
+        </record>
+    </data>
+</odoo>
+

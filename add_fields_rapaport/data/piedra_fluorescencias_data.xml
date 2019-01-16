@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="fluorescencia01" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">FAINT</field>         
+        </record>
+        <record id="fluorescencia02" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">FINT</field>         
+        </record>
+        <record id="fluorescencia03" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">FNT</field>         
+        </record>
+        <record id="fluorescencia04" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">M. BLUE</field>         
+        </record>
+        <record id="fluorescencia05" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">MED</field>         
+        </record>
+        <record id="fluorescencia06" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">N/A</field>         
+        </record>
+        <record id="fluorescencia07" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">NON</field>         
+        </record>
+        <record id="fluorescencia08" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">NONE</field>         
+        </record>
+        <record id="fluorescencia09" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">SL</field>         
+        </record>
+        <record id="fluorescencia10" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">SLIGHT</field>         
+        </record>
+        <record id="fluorescencia11" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">STG</field>         
+        </record>
+        <record id="fluorescencia12" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">VG</field>         
+        </record>
+        <record id="fluorescencia13" model="add_fields_rapaport_model.piedra_fluorescencias">
+            <field name="name">VST</field>         
+        </record>
+    </data>
+</odoo>

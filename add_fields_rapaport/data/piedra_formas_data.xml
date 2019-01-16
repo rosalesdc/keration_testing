@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="forma01" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Baguette</field>         
+        </record>
+        <record id="forma02" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Baguette Mix</field>         
+        </record>
+        <record id="forma03" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Beads</field>         
+        </record>
+        <record id="forma04" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Colombian Emerald</field>         
+        </record>
+        <record id="forma05" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Cushion</field>         
+        </record>
+        <record id="forma06" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Cushion Oval</field>         
+        </record>
+        <record id="forma07" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Emerald</field>         
+        </record>
+        <record id="forma08" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Emerald Colombian</field>         
+        </record>
+        <record id="forma09" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Emerald Colombian Mix</field>         
+        </record>
+        <record id="forma10" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Fancy mix</field>         
+        </record>
+        <record id="forma11" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Fancy Mix Yellow Rose Cut</field>         
+        </record>
+        <record id="forma12" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">H Fancy Yellow</field>         
+        </record>
+        <record id="forma13" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Heart</field>         
+        </record>
+        <record id="forma14" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Marquise</field>         
+        </record>
+        <record id="forma15" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Mix Emerald Colombian</field>         
+        </record>
+        <record id="forma16" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Mix Shape</field>         
+        </record>
+        <record id="forma17" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Oval</field>         
+        </record>
+        <record id="forma18" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Oval Emerald</field>         
+        </record>
+        <record id="forma19" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Pair</field>         
+        </record>
+        <record id="forma20" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Pear</field>         
+        </record>
+        <record id="forma21" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Pear Shape</field>         
+        </record>
+        <record id="forma22" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Princess</field>         
+        </record>
+        <record id="forma23" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Radiant</field>         
+        </record>
+        <record id="forma24" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Rough Diamonds</field>         
+        </record>
+        <record id="forma25" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Round</field>         
+        </record>
+        <record id="forma26" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Round Puzzle</field>         
+        </record>
+        <record id="forma27" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Trilliant</field>         
+        </record>
+        <record id="forma28" model="add_fields_rapaport_model.piedra_formas">
+            <field name="name">Zafiro Oval</field>         
+        </record>
+    </data>
+</odoo>

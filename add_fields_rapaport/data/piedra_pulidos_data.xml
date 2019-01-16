@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="pulido01" model="add_fields_rapaport_model.piedra_pulidos">
+            <field name="name">EX</field>         
+        </record>
+        <record id="pulido02" model="add_fields_rapaport_model.piedra_pulidos">
+            <field name="name">FAIR</field>         
+        </record>
+        <record id="pulido03" model="add_fields_rapaport_model.piedra_pulidos">
+            <field name="name">GD</field>         
+        </record>
+        <record id="pulido04" model="add_fields_rapaport_model.piedra_pulidos">
+            <field name="name">N/A</field>         
+        </record>
+        <record id="pulido05" model="add_fields_rapaport_model.piedra_pulidos">
+            <field name="name">VG</field>         
+        </record>
+    </data>
+</odoo>

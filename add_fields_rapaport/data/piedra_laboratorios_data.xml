@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="laboratorio01" model="add_fields_rapaport_model.piedra_laboratorios">
+            <field name="name">GIA</field>         
+        </record>
+        <record id="laboratorio02" model="add_fields_rapaport_model.piedra_laboratorios">
+            <field name="name">HRD</field>         
+        </record>
+        <record id="laboratorio03" model="add_fields_rapaport_model.piedra_laboratorios">
+            <field name="name">IGI</field>         
+        </record>
+        <record id="laboratorio04" model="add_fields_rapaport_model.piedra_laboratorios">
+            <field name="name">N/A</field>         
+        </record>
+    </data>
+</odoo>

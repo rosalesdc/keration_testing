@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+        <record id="add_purchase_rapaport_order_form" model="ir.ui.view">
+            <field name="name">add.purchase.rapaport.view</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree/field[@name='product_qty']" position="before">
+                    <field name="costo_quilate_usd"/>
+                    <field name="costo_total"/>      <!--"//form/sheet/notebook/page/field[@name='order_line']/tree/field[@name='product_qty']"                           -->
+                </xpath>
+            </field>                
+        </record>
+
+        <record id="add_purchase_rapaport_order_line_tree" model="ir.ui.view">
+            <field name="name">add.purchase.rapaport.view</field>
+            <field name="model">purchase.order.line</field>
+            <field name="inherit_id" ref="purchase.purchase_order_line_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree/field[@name='product_qty']" position="before">
+                    <field name="costo_quilate_usd"/>
+                    <field name="costo_total"/>     <!-- "//form/sheet/notebook/page/field[@name='order_line']/tree/field[@name='product_qty']"                           -->
+                </xpath>
+            </field>                
+        </record>      
+
+        
+
+  <!--      <record id="product_inherit_rapaport_product_normal_form" model="ir.ui.view">
+            <field name="name">product.product.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet/notebook/page[@name='general_information']/group/group[@name='group_standard_price']" position="after">
+                  <group name="monetario" string="Monetario">
+                    <group>
+                        <field name="numero_rapaport"></field> 
+                        <field name="descuento_rapaport"></field>                        
+                    </group>
+                    <group>
+                        <field name="costo_quilate_usd"></field>
+                        <field name="costo_total"></field>                        
+                    </group>
+                  </group>                  
+                </xpath>
+                <xpath expr="//page[@name='general_information']" position='after'>
+                    <page string="Especificaciones" name="especificaciones">
+                    <group>
+                        <group>
+                            <field name="quilate"></field> 
+                            <field name="balance_quilate"></field> 
+                            <field name="medida" placeholder="Ingresa texto"></field> 
+                            <field name="piedra_formas_id"></field> 
+                            <field name="piedra_colores_id"></field>
+                            <field name="piedra_laboratorios_id"></field>
+                        </group>
+                        <group>
+                            <field name="numero_certificado" placeholder="Ingresa texto"></field>
+                            <field name="piedra_cortes_id"></field>
+                            <field name="piedra_claridades_id"></field>
+                            <field name="piedra_pulidos_id"></field>
+                            <field name="piedra_fluorescencias_id"></field>
+                            <field name="piedra_simetrias_id"></field>        
+                        </group>
+                    </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>       -->
+	</data>
+</odoo>
+

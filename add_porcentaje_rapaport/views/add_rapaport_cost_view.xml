@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model='ir.ui.view' id='add_fields_rapaport_model_order_line_tree'>
+            <field name='name'>add_rapaport_model_order_line_tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='order_line']/tree//field[@name='price_unit']" position="before">
+<!--                    <field name="x_rapaport_cost"></field>-->
+                    <field name="x_n_rapaport"></field>
+                    <field name="porcentaje_rap"></field>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!--        Inicia Form y Tree para la especificación de Forma-->
+        <record id="piedra_forma_form_view" model="ir.ui.view"><!--esta vista pertenece al modelo-->
+            <field name="name">forma.form.view</field><!--texto arbitrario pero se utlizia esta forma por convención-->
+            <field name="model">add_fields_rapaport_model.piedra_formas</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Forma"/><!--recomendable primero poner los campos que se definieron como requeridos-->
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_forma_tree_view" model="ir.ui.view">
+            <field name="name">forma.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_formas</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de Forma-->
+        
+        <!--        Inicia Form y Tree para la especificación de Color-->
+        <record id="piedra_color_form_view" model="ir.ui.view">
+            <field name="name">color.form.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_colores</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Color"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_color_tree_view" model="ir.ui.view">
+            <field name="name">color.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_colores</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de Color-->
+        
+        <!--        Inicia Form y Tree para la especificación de Laboratorio-->
+        <record id="piedra_laboratorio_form_view" model="ir.ui.view">
+            <field name="name">laboratorio.form.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_laboratorios</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Laboratorio"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_laboratorio_tree_view" model="ir.ui.view">
+            <field name="name">laboratorio.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_laboratorios</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de Laboratorio-->
+        
+        <!--        Inicia Form y Tree para la especificación de Corte-->
+        <record id="piedra_corte_form_view" model="ir.ui.view">
+            <field name="name">corte.form.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_cortes</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Corte"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_corte_tree_view" model="ir.ui.view">
+            <field name="name">corte.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_cortes</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de Corte-->
+        
+        <!--        Inicia Form y Tree para la especificación de Claridad-->
+        <record id="piedra_claridad_form_view" model="ir.ui.view"><!--esta vista pertenece al modelo-->
+            <field name="name">claridad.form.view</field><!--texto arbitrario pero se utlizia esta forma por convención-->
+            <field name="model">add_fields_rapaport_model.piedra_claridades</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Claridad"/><!--recomendable primero poner los campos que se definieron como requeridos-->
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_claridad_tree_view" model="ir.ui.view">
+            <field name="name">claridad.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_claridades</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de Claridad-->
+
+        <!--        Inicia Form y Tree para la especificación de Pulido-->
+        <record id="piedra_pulido_form_view" model="ir.ui.view">
+            <field name="name">pulido.form.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_pulidos</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Pulido"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_pulido_tree_view" model="ir.ui.view">
+            <field name="name">pulido.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_pulidos</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de Pulido-->
+        
+        <!--        Inicia Form y Tree para la especificación de Fluorescencia-->
+        <record id="piedra_fluorescencia_form_view" model="ir.ui.view">
+            <field name="name">fluorescencia.form.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_fluorescencias</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Fluorescencia"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_fluorescencia_tree_view" model="ir.ui.view">
+            <field name="name">fluorescencia.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_fluorescencias</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de fluorescencia-->
+        <!--        Inicia Form y Tree para la especificación de Simetría-->
+        <record id="piedra_simetria_form_view" model="ir.ui.view">
+            <field name="name">simetria.form.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_simetrias</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Simetría"/>
+                            </h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="piedra_simetria_tree_view" model="ir.ui.view">
+            <field name="name">simetria.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_simetrias</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+        <!--        Termina Form y Tree para la especificación de simetría-->
+        <!--        Se añaden los actions-->
+        <record id="piedra_forma_action_window" model="ir.actions.act_window">
+            <field name="name">Forma</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_formas</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_claridad_action_window" model="ir.actions.act_window">
+            <field name="name">Claridad</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_claridades</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_color_action_window" model="ir.actions.act_window">
+            <field name="name">Color</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_colores</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_laboratorio_action_window" model="ir.actions.act_window">
+            <field name="name">Laboratorio</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_laboratorios</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_corte_action_window" model="ir.actions.act_window">
+            <field name="name">Corte</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_cortes</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_pulido_action_window" model="ir.actions.act_window">
+            <field name="name">Pulido</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_pulidos</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_fluorescencia_action_window" model="ir.actions.act_window">
+            <field name="name">Fluorescencia</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_fluorescencias</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="piedra_simetria_action_window" model="ir.actions.act_window">
+            <field name="name">Simetría</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_simetrias</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!--Este action no es necesario cuando ya se han pintado todas las opciones del menú-->
+        <record id="option_especificacion_action_window" model="ir.actions.act_window">
+            <field name="name">Especificaciones</field>
+            <field name="res_model">product.template</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_type">form</field>
+        </record>
+        
+        <!--        Se añaden las opciones al menú-->
+        <menuitem
+            id="especificaciones_menuitem"
+            name="Especificaciones"
+            action="option_especificacion_action_window"
+            parent="stock.menu_stock_root"
+            sequence="101"
+        />
+        <menuitem
+            id="especificaciones_forma_menuitem"
+            name="Forma"
+            action="piedra_forma_action_window"
+            parent="especificaciones_menuitem"
+            sequence="102"
+        />
+        <menuitem
+            id="especificaciones_color_menuitem"
+            name="Color"
+            action="piedra_color_action_window"
+            parent="especificaciones_menuitem"
+            sequence="103"
+        />
+        <menuitem
+            id="especificaciones_laboratorio_menuitem"
+            name="Laboratorio"
+            action="piedra_laboratorio_action_window"
+            parent="especificaciones_menuitem"
+            sequence="104"
+        />
+        <menuitem
+            id="especificaciones_corte_menuitem"
+            name="Corte"
+            action="piedra_corte_action_window"
+            parent="especificaciones_menuitem"
+            sequence="105"
+        />
+        <menuitem
+            id="especificaciones_claridad_menuitem"
+            name="Claridad"
+            action="piedra_claridad_action_window"
+            parent="especificaciones_menuitem"
+            sequence="106"
+        />
+        <menuitem
+            id="especificaciones_pulido_menuitem"
+            name="Pulido"
+            action="piedra_pulido_action_window"
+            parent="especificaciones_menuitem"
+            sequence="107"
+        />
+        <menuitem
+            id="especificaciones_fluorescencia_menuitem"
+            name="Fluorescencia"
+            action="piedra_fluorescencia_action_window"
+            parent="especificaciones_menuitem"
+            sequence="108"
+        />
+        <menuitem
+            id="especificaciones_simetria_menuitem"
+            name="Simetría"
+            action="piedra_simetria_action_window"
+            parent="especificaciones_menuitem"
+            sequence="109"
+        />
+    </data>
+</odoo>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ESTA ARCHIVO SE UTILIZÓ INICIALMENTE PARA ARMAR EL MENÚ, YA NO SE UTILIZA EN LA VERSIÓN FINAL-->
+<!--ESTA ARCHIVO SE UTILIZÓ INICIALMENTE PARA ARMAR EL MENÚ, YA NO SE UTILIZA EN LA VERSIÓN FINAL-->
+<!--ESTA ARCHIVO SE UTILIZÓ INICIALMENTE PARA ARMAR EL MENÚ, YA NO SE UTILIZA EN LA VERSIÓN FINAL-->
+<odoo>
+    <data>
+        <record id="piedra_claridad_view" model="ir.ui.view"><!--esta vista pertenece al modelo-->
+            <field name="name">piedra.claridad.view</field><!--texto arbitrario pero se utlizia esta forma por convención-->
+            <field name="model">add_fields_rapaport_model.piedra_claridades</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Registro Claridad"/><!--recomendable primero poner los campos que se definieron como requeridos-->
+                            </h1>
+                        </div>
+                        <group><!--grupos de campos-->
+                            <group>
+
+                            </group>
+                            <group>
+
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="piedra_claridad_tree_view" model="ir.ui.view">
+            <field name="name">piedra_claridad.tree.view</field>
+            <field name="model">add_fields_rapaport_model.piedra_claridades</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+
+        <record id="piedra_claridad_action_window" model="ir.actions.act_window">
+            <field name="name">Claridad</field>
+            <field name="res_model">add_fields_rapaport_model.piedra_claridades</field>
+            <field name="view_type">tree</field>
+            <field name="view_mode">tree</field>
+        </record>
+        <!--        <menuitem
+            id="master_data_training"
+            name="Training Module"
+            sequence="50"
+        />-->
+        <menuitem
+            id="claridad_menuitem"
+            name="Claridad"
+            action="piedra_claridad_action_window"
+            parent="claridad_data_test"
+            sequence="101"
+        />
+    </data>
+</odoo>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="claridad01" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">II quality</field>         
+        </record>
+        <record id="claridad02" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">N/A</field>         
+        </record>
+        <record id="claridad03" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P1</field>         
+        </record>
+        <record id="claridad04" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P1-I1</field>         
+        </record>
+        <record id="claridad05" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P1/P2</field>         
+        </record>
+        <record id="claridad06" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P1/SI3</field>         
+        </record>
+        <record id="claridad07" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P2</field>         
+        </record>
+        <record id="claridad08" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P2/P3</field>         
+        </record>
+        <record id="claridad09" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">P3</field>         
+        </record>
+        <record id="claridad010" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI</field>         
+        </record>
+        <record id="claridad11" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI 1</field>         
+        </record>
+        <record id="claridad12" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI 2</field>         
+        </record>
+        <record id="claridad13" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI 3</field>         
+        </record>
+        <record id="claridad14" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI/P1</field>         
+        </record>
+        <record id="claridad15" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI1/SI2</field>         
+        </record>
+        <record id="claridad16" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI2/SI3</field>         
+        </record>
+        <record id="claridad17" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">SI3/P1</field>         
+        </record>
+        <record id="claridad18" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS</field>         
+        </record>
+        <record id="claridad19" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS 1</field>         
+        </record>
+        <record id="claridad20" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS 2</field>         
+        </record>
+        <record id="claridad21" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS/SI</field>         
+        </record>
+        <record id="claridad22" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS/SI1</field>         
+        </record>
+        <record id="claridad23" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS/SI1+</field>         
+        </record>
+        <record id="claridad24" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VS2/SI1</field>         
+        </record>
+        <record id="claridad25" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VVS</field>         
+        </record>
+        <record id="claridad26" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VVS 1</field>         
+        </record>
+        <record id="claridad27" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VVS 2</field>         
+        </record>
+        <record id="claridad28" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VVS/VS</field>         
+        </record>
+        <record id="claridad29" model="add_fields_rapaport_model.piedra_claridades">
+            <field name="name">VVS/VS1 FM</field>         
+        </record>
+    </data>
+</odoo>

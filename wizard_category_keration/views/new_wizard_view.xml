@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="wizard_deletion_view">
+            <field name="name">wizard.form</field>
+            <field name="model">wizard_deletion</field>
+            <field name="arch" type="xml">
+                <form string="description">
+                    <group>
+                        <field name="purchase_ids"/>
+                    </group>
+                    <footer>
+                        <button string="Eliminar RFQ'S" name="delete_rfqs" type="object" class="oe_highlight"/>
+                        <button string="Cancelar" class="btn-default" special="cancel"/>
+                    </footer>				
+                </form>
+            </field>
+        </record>
+        <act_window
+            id="action_delete_rfq"
+            multi="True"
+            key2="client_action_multi"
+            name="Process"
+            res_model="wizard_deletion"
+            src_model="purchase.order"
+            view_mode="form"
+            target="new"/>
+    </data>
+</odoo>
+

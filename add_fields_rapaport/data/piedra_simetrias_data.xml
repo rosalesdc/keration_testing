@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="simetria01" model="add_fields_rapaport_model.piedra_simetrias">
+            <field name="name">EX</field>         
+        </record>
+        <record id="simetria02" model="add_fields_rapaport_model.piedra_simetrias">
+            <field name="name">FAIR</field>         
+        </record>
+        <record id="simetria03" model="add_fields_rapaport_model.piedra_simetrias">
+            <field name="name">GD</field>         
+        </record>
+        <record id="simetria04" model="add_fields_rapaport_model.piedra_simetrias">
+            <field name="name">N/A</field>         
+        </record>
+        <record id="simetria05" model="add_fields_rapaport_model.piedra_simetrias">
+            <field name="name">VG</field>         
+        </record>
+    </data>
+</odoo>

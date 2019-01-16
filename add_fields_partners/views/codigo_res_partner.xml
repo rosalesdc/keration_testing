@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="ine_res_partner_form" model="ir.ui.view">
+            <field name="name">codigo_vendor.res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"></field><!--Referencía al alemento heredado por su ID-->
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position='before'> <!--un campo llamado vat-->
+                    <field name="codigo_vendor" placeholder="Llenar sólo si se trata de un proveedor"></field> <!--un campo que estamos agregando-->
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="wizard_keration_view">
+		<field name="name">wizard.form</field>
+		<field name="model">wizard_keration</field>
+		<field name="arch" type="xml">
+			<form string="description">
+				<group>
+					<field name="product_ids"/>
+				</group>
+				<footer>
+					<button string="Cambiar categoria a Certificado " name="update_categs" type="object" class="oe_highlight"/>
+					<button string="Cancelar" class="btn-default" special="cancel"/>
+				</footer>				
+			</form>
+		</field>
+	</record>
+	<act_window
+		id="action_update_categs"
+		multi="True"
+		key2="client_action_multi"
+		name="Cambiar categoria"
+		res_model="wizard_keration"
+		src_model="product.template"
+		view_mode="form"
+		target="new"/>
+	</data>
+</odoo>
+
