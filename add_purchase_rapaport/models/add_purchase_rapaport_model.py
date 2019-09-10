@@ -20,8 +20,8 @@ class add_purchase_rapaport_line(models.Model):
 
     numero_rapaport=fields.Integer('Costo Rapaport',store=True)
     descuento_rapaport=fields.Float('Porcentaje de descuento Rapaport',digits=(9,2),store=True)
-    costo_quilate_usd=fields.Float('Costo unitario del quilate en USD ',digits=(9,2),default=0.0)
-    costo_total=fields.Float('Costo total de la pieza en USD',digits=(9,2),default=0.0)
+    costo_quilate_usd=fields.Float(related='product_id.costo_quilate_usd',string='Costo unitario del quilate en USD ',digits=(9,2),default=0.0)
+    costo_total=fields.Float(related='product_id.costo_total',string='Costo total de la pieza en USD',digits=(9,2),default=0.0)
     quilate=fields.Float(string='Quilate',digits=(4,2),default=0.0)
     balance_quilate=fields.Float(string='Balance quilate',digits=(4, 2),default=0.0)
     medida=fields.Char(string='Medida')

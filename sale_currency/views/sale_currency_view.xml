@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record model='ir.ui.view' id='sale_currency_view'>
+			<field name='name'>sale_currency_view</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+		    <field name="arch" type="xml">
+		    	<xpath expr="//field[@name='payment_term_id']" position="after">
+		    		<field name="x_tipo_cambio"/>
+		    	</xpath>
+		        <xpath expr="//field[@name='order_line']/tree//field[@name='price_unit']" position="before">
+		            <field name="x_tipo_cambio"/>
+		        </xpath>
+		    </field>
+		</record>
+		<record model='ir.ui.view' id='invoice_currency_view'>
+			<field name='name'>invoice_currency_view</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+		    <field name="arch" type="xml">
+		    	<xpath expr="//field[@name='currency_id']" position="before">
+		    		<field name="x_tipo_cambio"/>
+		    	</xpath>
+		        <xpath expr="//field[@name='invoice_line_ids']/tree//field[@name='price_unit']" position="before">
+		            <field name="x_tipo_cambio"/>
+		        </xpath>
+		    </field>
+		</record>
+	</data>
+</odoo>

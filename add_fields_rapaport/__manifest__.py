@@ -29,18 +29,18 @@
 
     # always loaded
 	'data': [
-        'sequences/product_sequence.xml',
-	'views/add_fields_rapaport_view.xml',
-#        'views/add_porcentaje_rapaport.xml',
-        'data/piedra_claridades_data.xml',
-        'data/piedra_colores_data.xml',
-        'data/piedra_cortes_data.xml',
-        'data/piedra_fluorescencias_data.xml',
         'data/piedra_formas_data.xml',
+        'data/piedra_colores_data.xml',
         'data/piedra_laboratorios_data.xml',
+        'data/piedra_cortes_data.xml',
+        'data/piedra_claridades_data.xml',
         'data/piedra_pulidos_data.xml',
+        'data/piedra_fluorescencias_data.xml',
         'data/piedra_simetrias_data.xml',
+        'data/product_stone_type.xml',
         'security/ir.model.access.csv',
+        'views/add_fields_rapaport_view.xml',
+        'sequences/product_sequence.xml',
 
 #    'views/new_wizard_view.xml',
 	'templates.xml',

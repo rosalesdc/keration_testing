@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record id="topacio" model="product.stone.type">
+			<field name="name">Topacio</field>
+		</record>
+		<record id="esmeralda" model="product.stone.type">
+			<field name="name">Esmeralda</field>
+		</record>
+		<record id="tanzanita" model="product.stone.type">
+			<field name="name">Tanzanita</field>
+		</record>
+		<record id="diamante" model="product.stone.type">
+			<field name="name">Diamante</field>
+		</record>
+		<record id="zaphiro" model="product.stone.type">
+			<field name="name">Zaphiro</field>
+		</record>
+	</data>
+</odoo>

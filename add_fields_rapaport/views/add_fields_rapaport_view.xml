@@ -6,38 +6,84 @@
             <field name="model">product.template</field><!--texto arbitrario pero se utlizia esta forma por convención, viene del modelo base-->
             <field name="inherit_id" ref="product.product_template_form_view"></field><!--Referencía al alemento heredado por su ID-->
             <field name="arch" type="xml">
-                <xpath expr="//form/sheet/notebook/page[@name='general_information']/group/group[@name='group_standard_price']" position="after">
-                    <group name="monetario" string="Monetario">
-                        <group>
-                            <field name="numero_rapaport"></field> 
-                            <field name="descuento_rapaport"></field>
-                            <field name="parsel_code">parsel.code</field>                        
-                        </group>
-                        <group>
-                            <field name="costo_quilate_usd"></field>
-                            <field name="costo_total"></field>
-<!--                            <field name="porcentaje_rap" />-->
-                        </group>
-                    </group>                  
+                <field name="list_price" position="attributes">
+                    <attribute name="string">Precio de venta (max)</attribute>
+                </field>
+                <field name="list_price" position="after">
+                    <field name="list_price_min"/>
+                </field>
+                <xpath expr="//div[@name='options']" position="inside">
+                    <div>
+                        <field name="joyeria"/>
+                        <label for="joyeria"/>
+                    </div>
+                    <div>
+                        <field name="diamante"/>
+                        <label for="diamante"/>
+                    </div>
                 </xpath>
-                <xpath expr="//page[@name='general_information']" position='after'>
-                    <page string="Especificaciones" name="especificaciones">
+                <xpath expr="//page[@name='inventory']" position='after'>
+                    <page name="joyeria" string="Especificaciones joyeria" attrs="{'invisible':[('joyeria', '=', False)]}">
                         <group>
                             <group>
-                                <field name="quilate"></field> 
-<!--                                 <field name="balance_quilate"></field>  -->
-                                <field name="medida" placeholder="Ingresa texto"></field> 
-                                <field name="piedra_formas_id"></field> 
-                                <field name="piedra_colores_id"></field>
-                                <field name="piedra_laboratorios_id"></field>
+                                <field name="metal"/>
+                                <field name="kt_diez"/>
+                                <field name="kt_catorce"/>
+                                <field name="kt_dieciocho"/>
+                                <field name="color"/>
+                                <field name="gold_weight"/>
+                                <field name="diamond_qa"/>
+                                <field name="num_diamond"/>
                             </group>
                             <group>
-                                <field name="numero_certificado" placeholder="Ingresa texto"></field>
-                                <field name="piedra_cortes_id"></field>
+                                <field name="diamond_ct"/>
+                                <field name="stone_type_id"/>
+                                <field name="num_stone"/>
+                                <field name="stone_weight"/>
+                                <field name="gem_cet"/>
+                                <field name="num_gem"/>
+                                <field name="design"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+                <xpath expr="//page[@name='general_information']" position='after'>
+                    <page string="Especificaciones" name="especificaciones" attrs="{'invisible':[('diamante', '=', False)]}">
+                        <group name="monetario" string="Monetario">
+                            <group>
+                                <field name="lote"/>
+                                <field name="numero_rapaport"></field> 
+                                <field name="descuento_rapaport"></field>
+                                <field name="costo_quilate_usd"></field>
+                                <field name="costo_total"></field>
+                            </group>
+                            <group>
+                                <field name="price_sale"/>
+                                <field name="rap_sale"/>
+                                <field name="total_sale"/>
+                                <field name="profit_total"/>
+                            </group>
+                        </group> 
+                        <group>
+                            <group>
+                                <field name="quilate"></field>
+                                <field name="piedra_formas_id"></field> 
+                                <field name="piedra_colores_id"></field>
                                 <field name="piedra_claridades_id"></field>
+                                <field name="size"/>
+                                <field name="sieve"/>
+                                <field name="balance_quilate"/>
+                                <field name="stone_type_id"/>
+                            </group>
+                            <group>
+                                <field name="piedra_laboratorios_id"></field>
+                                <field name="numero_certificado"></field>
+                                <field name="piedra_cortes_id"></field>
                                 <field name="piedra_pulidos_id"></field>
+                                <field name="piedra_simetrias_id"></field>
                                 <field name="piedra_fluorescencias_id"></field>
-                                <field name="piedra_simetrias_id"></field>        
+                                <field name="table"/>        
+                                <field name="meas"/>
                             </group>
                         </group>
                         <!--                    <field name="nombre_proveedor"></field>
